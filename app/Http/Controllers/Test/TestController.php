@@ -12,6 +12,7 @@ use App\Http\Model\StudentModel;
 
 class TestController extends Controller
 {
+    //测试首页
     public function index()
     {
         return 'this Test- - -index';
