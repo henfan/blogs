@@ -14,6 +14,8 @@ class StudentInfoModel extends Model
     protected $table =  'studentinfo';//表名
     protected $primaryKey =     'id'; //主键
 
+
+    //一对一关联
     public function user()
     {
         return $this->belongsTo('App\Http\Model\StudentModel','id','user_id');
