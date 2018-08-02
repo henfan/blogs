@@ -47,9 +47,4 @@ class TestController extends Controller
         $data = StudentModel::find($id) ;
         $data->delete();
     }
-
-    public function hello()
-    {
-        echo 'Hello World';
-    }
 }

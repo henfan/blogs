@@ -24,8 +24,4 @@ Route::group([
     Route::get('detail/{id}','TestController@detail');
     Route::get('delete/{id}','TestController@delete');
     Route::get('update/{id}/{name}','TestController@update');
-
-    Route::get('hello','TestController@hello');
-    
-
 });
