@@ -14,7 +14,7 @@ class TestController extends Controller
 {
     public function index()
     {
-        return 'this Test---index';
+        return 'this Test- - -index';
     }
 
     public function insert()
