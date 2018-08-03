@@ -21,4 +21,8 @@ class StudentInfoModel extends Model
         return $this->belongsTo('App\Http\Model\StudentModel','id','user_id');
     }
     //
+    public function tets()
+    {
+        //
+    }
 }
