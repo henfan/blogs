@@ -25,3 +25,4 @@ Route::group([
     Route::get('delete/{id}','TestController@delete');
     Route::get('update/{id}/{name}','TestController@update');
 });
+yum install php72w php72w-cli php72w-common php72w-devel php72w-embedded php72w-fpm php72w-gd php72w-mbstring php72w-mysqlnd php72w-opcache php72w-pdo php72w-xml php72w-curl php72w-redis
